@@ -1,7 +1,16 @@
 .App {
   text-align: center;
 }
-
+.btn1{
+  width: 150px;
+  height:20px;
+  background-color:aqua;
+}
+.btn2{
+  width: 150px;
+  height: 20px;
+  background-color:red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
