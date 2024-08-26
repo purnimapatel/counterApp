@@ -1,15 +1,31 @@
 .App {
   text-align: center;
 }
+.Box{
+  background-color:aqua;
+  margin-left: 100px;
+  margin-right:100px;
+  border-radius: 5cm;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .btn1{
   width: 150px;
   height:20px;
-  background-color:aqua;
+  background-color:rgb(17, 255, 0);
+}
+.btn1:hover{
+  background-color:antiquewhite;
+  cursor:pointer;
 }
 .btn2{
   width: 150px;
   height: 20px;
-  background-color:red;
+  background-color:rgb(255, 55, 0);
+}
+.btn2:hover{
+  background-color:antiquewhite;
+  cursor: pointer;
 }
 .App-logo {
   height: 40vmin;

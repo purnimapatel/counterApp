@@ -6,6 +6,7 @@ function App() {
   const [counter, setCounter] = useState(0);
   return (
     <div className="App">
+    <div className="Box">
       <h1>Counter APPLICATION</h1>
       {counter}
       <br></br>
@@ -13,7 +14,7 @@ function App() {
       <br></br>
       <button className='btn1' onClick={()=>setCounter(counter+1)}>Increase</button>
       
-      
+      </div>
     </div>
   );
 }
